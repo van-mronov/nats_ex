@@ -32,7 +32,7 @@ defmodule NatsEx.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:poison, "~> 2.2"},
-     {:gproc, "~> 0.5.0"},
+     {:gproc, "~> 0.6.1"},
      {:ex_doc, "~> 0.12", only: :dev},
      {:credo, "~> 0.4", only: [:dev, :test]}]
   end
